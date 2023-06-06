@@ -10,8 +10,9 @@ public class CafeJava {
         // Menu variables (add yours below)
         double mochaPrice = 3.5;
         double dripCoffee = 3.75;
-        double latte = 8.0;
+        double latte = 5.0;
         double cappucino = 7.0;
+        double priceDifference = ((latte - dripCoffee));
     
         // Customer name variables (add yours below)
         String customer1 = "Cindhuri";
@@ -50,6 +51,6 @@ public class CafeJava {
             System.out.println(customer2 + pendingMessage);
         }
 
-        System.out.println(customer3 + ',' + displayTotalMessage + 0.75);
+        System.out.println(customer3 + ',' + displayTotalMessage + priceDifference);
     }
 }
