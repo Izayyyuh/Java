@@ -32,7 +32,7 @@ public class TestCafe {
         // --- Test 4 times ---
         for (int i = 0; i < 4; i++) {
             appTest.addCustomer(customers);
-            System.out.println("\n");
+            System.out.println(customers +"\n");
         }
     }
 }

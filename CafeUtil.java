@@ -33,10 +33,12 @@ public class CafeUtil {
     }
 
     public void addCustomer(ArrayList<String> customers){
-        
+    // int customersArrayLength = customers.array
     System.out.println("Please enter your name.");
     String userName = System.console().readLine();
+    customers.add(userName);
     System.out.println("Hello, " + userName + "!");
+    System.out.println("There are " +  (customers.size() - 1) + " people in font of you.");
     }
     
 
